@@ -1,0 +1,6 @@
+node_modules
+.idea
+*.iml
+en.json
+de.json
+fr.json
