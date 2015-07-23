@@ -32,6 +32,11 @@ var jsonKeysCompare = require('json-keys-compare');
 jsonKeysCompare.compareObjectKeys({a: 1, b: 2}, {a: 1});
 // or
 jsonKeysCompare.compareJsonFiles(file1, file2);
+// return value: 
+// {
+//     unique1: [array of unique keys for the first file/object],
+//     unique2: [array of unique keys for the second file/object]
+// }
 ```
 
 See [usage.js](usage.js)
