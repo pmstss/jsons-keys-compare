@@ -2,7 +2,7 @@
   "name": "json-keys-compare",
   "version": "0.1.0",
   "description": "compare key sets in two given jsons",
-  "main": "app.js",
+  "main": "json-keys-compare.js",
   "dependencies": {
       "rsvp": "^3.0.18"
   },
